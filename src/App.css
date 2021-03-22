@@ -2,17 +2,43 @@
 {
 	margin-top: 10vh;
 	display: flex;
-	align-items: center;
 	flex-direction: column;
-	border : 1px solid black;
-	padding : 20px 0px;
+	background-color: rgb(251, 251, 251);
+	padding : 50px;
+	border-radius: 20px;
 }
 
 .container img
 {
-	margin : 20px 0px;
+	margin : 20px auto;
 }
 
+.image-container
+{
+	display: flex;
+	justify-content: center;
+}
+
+.image-container img
+{
+	width : 50%;
+	margin : 0px 5px;
+}
+
+.feedback-container
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-top: 10px;
+}
+
+.feedback-container button
+{
+	margin : 0px 5px;
+}
+
+/* 
 .container input
 {
 	width : 40%;
@@ -78,4 +104,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
